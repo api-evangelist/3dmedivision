@@ -1,17 +1,36 @@
 aid: 3dmedivision
 name: 3D Medivision
-description: '3D Medivision is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: '3D Medivision (쓰리디메디비젼) is a Seoul, South Korea medical imaging and
+  medical-education company founded around 3D surgical video capture. It builds 3D/2D
+  camera systems, recorders and monitors that mount to surgical microscopes and endoscopes
+  so a procedure can be recorded stereoscopically and streamed to surgeons in another
+  room, hospital or country. On top of that hardware it operates a set of end-user
+  education products: Veterflix and Global Veterflix (video-on-demand veterinary courses,
+  webinars and 3D canine anatomy), VGTC (live 3D surgery streaming plus hands-on
+  courses in Incheon), VET-TV (a 3D anatomy lecture system for large-group teaching),
+  Veter VR (VR-based veterinary training) and Surgflix for human surgery. The company
+  sells hardware, subscriptions and training — it does not operate a public developer
+  program, and no public API, SDK, webhook surface or machine-readable API contract was
+  found on any host it controls.'
+image: https://www.3dmedivision.com/uploads/4/3/9/3/43934531/published/2-1.png
 url: https://raw.githubusercontent.com/api-evangelist/3dmedivision/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Medical Devices
+- Medical Imaging
+- Surgical Video
+- Veterinary
+- Education
+- Video On Demand
+- Virtual Reality
+- Health Care
+- South Korea
+position: Producing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +39,51 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://equityzen.com/company/3dmedivision
+  url: https://www.3dmedivision.com/
+- type: Blog
+  url: https://www.3dmedivision.com/news.html
+- type: PressReleases
+  url: https://www.3dmedivision.com/press-releases.html
+- type: Support
+  url: https://www.3dmedivision.com/contact.html
+- type: PrivacyPolicy
+  url: https://www.3dmedivision.com/privacy-policy.html
+- type: x-downloads
+  url: https://www.3dmedivision.com/downloads.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/3d-medivision/
+- type: InvestorRelations
+  url: https://www.3dmedivision.com/ir.html
+- type: x-secondary-market-listing
+  url: https://equityzen.com/company/3dmedivision/
+- type: DomainSecurity
+  url: security/3dmedivision-domain-security.yml
+- type: LLMsTxt
+  url: llms/3dmedivision-llms.txt
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    3D Medivision sells 3D surgical camera hardware and subscription video-education products
+    (Veterflix, VGTC, VET-TV, Veter VR); its site has no developer, API or integration section
+    at all, its Veterflix learning platform runs as a tenant on the third-party Airklass LMS,
+    and it has no GitHub organization or package in any public registry.
+  evidence:
+  - url: https://www.3dmedivision.com/sitemap.xml
+    status: 200
+  - url: https://www.3dmedivision.com/openapi.json
+    status: 404
+  - url: https://www.3dmedivision.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.3dmedivision.com/.well-known/agent-card.json
+    status: 404
+  - url: https://api.github.com/orgs/3dmedivision
+    status: 404
+  - url: https://registry.npmjs.org/veterflix
+    status: 404
+  checked: '2026-09-05'

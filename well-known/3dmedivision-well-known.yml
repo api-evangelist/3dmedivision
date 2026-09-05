@@ -1,0 +1,112 @@
+generated: '2026-09-05'
+method: probed
+source: live GET of the named /.well-known/ path list on every host this record knows
+note: >-
+  No document was served on any host. Nothing was saved and NO WellKnown/SecurityTxt
+  pointer is wired — this file records a measured absence, not a presence. The Weebly-hosted
+  3dmedivision.com family answers a real 404 (3,802-byte error page) on every path, including
+  the negative control. www.veterflix.com is a Next.js single-page app on the third-party
+  Airklass LMS (file.airklass.biz) that answers HTTP 200 with the same 79,798-byte HTML shell
+  for EVERY path including the negative control, so all of its 200s are soft-404s and are
+  recorded as misses. surgflix.com did not resolve/connect at probe time.
+hit_count: 0
+soft_404_control:
+  host: https://www.veterflix.com
+  path: /.well-known/3dmedivision-negative-control-7f3ab91c.json
+  status: 200
+  bytes: 79798
+  verdict: failed
+  note: catch-all SPA — every 200 on this host is discarded
+path_echo_control: passed
+hosts:
+- host: https://www.3dmedivision.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/3dmedivision-negative-control-7f3ab91c.json, status: 404}
+- host: https://3dmedivision.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/3dmedivision-negative-control-7f3ab91c.json, status: 404}
+- host: https://ko.3dmedivision.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/3dmedivision-negative-control-7f3ab91c.json, status: 404}
+- host: https://vgtc.veterflix.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/3dmedivision-negative-control-7f3ab91c.json, status: 404}
+- host: https://www.globalveterflix.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /.well-known/3dmedivision-negative-control-7f3ab91c.json, status: 404}
+- host: https://www.veterflix.com
+  note: >-
+    Catch-all SPA — every path below returned HTTP 200 with the identical 79,798-byte HTML
+    shell, including the negative control. All treated as MISSES; nothing saved.
+  documents:
+  - {path: /.well-known/security.txt, status: 200, soft_404: true}
+  - {path: /.well-known/openid-configuration, status: 200, soft_404: true}
+  - {path: /.well-known/oauth-authorization-server, status: 200, soft_404: true}
+  - {path: /.well-known/oauth-protected-resource, status: 200, soft_404: true}
+  - {path: /.well-known/api-catalog, status: 200, soft_404: true}
+  - {path: /.well-known/ai-plugin.json, status: 200, soft_404: true}
+  - {path: /.well-known/apis.json, status: 200, soft_404: true}
+  - {path: /.well-known/aauth-resource.json, status: 200, soft_404: true}
+  - {path: /.well-known/agent-card.json, status: 200, soft_404: true}
+  - {path: /.well-known/agent.json, status: 200, soft_404: true}
+  - {path: /apis.json, status: 200, soft_404: true}
+  - {path: /apis.yml, status: 200, soft_404: true}
+  - {path: /.well-known/3dmedivision-negative-control-7f3ab91c.json, status: 200, soft_404: true}
+- host: https://www.surgflix.com
+  note: host did not resolve/connect at probe time (curl exit 28 / status 000)
+  documents:
+  - {path: /.well-known/security.txt, status: 0}
+  - {path: /.well-known/agent-card.json, status: 0}
+  - {path: /apis.json, status: 0}
