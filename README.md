@@ -64,5 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-3D Medivision is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/3dmedivision
+3D Medivision (쓰리디메디비젼) is a Seoul, South Korea medical imaging and medical-education company founded around 3D surgical video capture. It builds 3D/2D camera systems, recorders and monitors that mount to surgical microscopes and endoscopes so a procedure can be recorded stereoscopically and streamed to surgeons in another room, hospital or country. On top of that hardware it operates a set of end-user education products: Veterflix and Global Veterflix (video-on-demand veterinary courses, webinars and 3D canine anatomy), VGTC (live 3D surgery streaming plus hands-on courses in Incheon), VET-TV (a 3D anatomy lecture system for large-group teaching), Veter VR (VR-based veterinary training) and Surgflix for human surgery. The company sells hardware, subscriptions and training — it does not operate a public developer program, and no public API, SDK, webhook surface or machine-readable API contract was found on any host it controls.
+
+**Areas:** Company · Medical Devices · Medical Imaging · Surgical Video · Veterinary · Education · Video-on-Demand · Virtual Reality · Healthcare · South Korea
+
+## 3D Medivision on APIs.io
+
+Everything profiled for 3D Medivision is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/3dmedivision/](https://apis.io/providers/3dmedivision/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [Moved to /providers/3dmedivision/](https://apis.io/servers/3dmedivision/3dmedivision/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [3Dmedivision Domain Security](https://apis.io/security/3dmedivision/3dmedivision-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.3dmedivision.com/)
+- [Support](https://www.3dmedivision.com/contact.html)
+- [Blog](https://www.3dmedivision.com/news.html)
+- [Privacy policy](https://www.3dmedivision.com/privacy-policy.html)
+
+## API Evangelist rating
+
+**Kin Score 8.1** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 52.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 11.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3dmedivision/](https://apis.io/providers/3dmedivision/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 3D Medivision: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/3dmedivision/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
