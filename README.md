@@ -86,7 +86,7 @@ Model Context Protocol servers that expose the API to agents.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [3Dmedivision Domain Security](https://apis.io/security/3dmedivision/3dmedivision-domain-security/)
+- [3D Medivision Domain Security](https://apis.io/security/3dmedivision/3dmedivision-domain-security/)
 
 ## Where to find this API
 
@@ -99,18 +99,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 8.1** — minimal · rubric 0.25.0 · scored 2026-10-23
+**Kin Score 7.8** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 52.5 |
+| Discoverability | 60.0 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 7.1 |
-| Access clarity | 10.5 |
+| Access clarity | 8.5 |
 
-**Agent readiness 11.5** — agent-aware
+**Agent readiness 12.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -135,8 +135,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | half (partial credit) |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 7.8** — Health
+**Regulatory alignment 3.1** — Health
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3dmedivision/](https://apis.io/providers/3dmedivision/).
 
